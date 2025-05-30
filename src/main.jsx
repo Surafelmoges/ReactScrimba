@@ -38,13 +38,45 @@ function Home(){
     <h1>Welcome to AddisElectronics</h1>
 )
 }
+
+
+function PartTwo(){
+  return (
+    <div>
+    <header>
+      <img 
+      src="ll.jpg"
+      alt="React-logo"
+      width="100"
+      height="100" 
+      />
+      
+    </header>
+    <main>
+      <h1>List Of Products</h1>
+      <ol>
+        <li>Phone</li>
+        <li>Laptop</li>
+        <li>Earpod</li>
+        <li>TV</li>
+      </ol>
+    </main>
+    <footer>
+      <p>@ 20xx SurafelMoges2025 All Right Reserved</p>
+    </footer>
+    </div>
+  )
+}
+
 function Apps(){
   return (
     <div>
       <MyfirstReactComponet />
       <Home />
+      <PartTwo />
     </div>
     
   );
 }
+
 containor.render(<Apps />);
